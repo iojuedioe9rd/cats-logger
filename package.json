@@ -1,0 +1,23 @@
+{
+  "name": "@lolhgcfcfcghgfd/cats-logger",
+  "version": "1.0.0",
+  "description": "simple logger",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts && tsc index.ts --declaration --allowJs --emitDeclarationOnly --outDir types",
+    "start": "node index.js",
+    "build-and-run": "npm run build && npm run start",
+    "publish": "npm publish",
+    "login": "npm login",
+    "publish-and-login": "npm run login && npm run publish"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
