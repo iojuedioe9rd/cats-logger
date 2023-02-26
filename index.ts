@@ -61,9 +61,8 @@ export default class Logger{
     
 
 
-Logger.log("Hello World");
-Logger.warn("This is a warning");
-Logger.error("This is an error")
+
+
 
 export const logger = (message: any) => {
     console.log(message);

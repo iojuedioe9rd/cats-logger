@@ -58,9 +58,6 @@ var Logger = /** @class */ (function () {
     return Logger;
 }());
 exports["default"] = Logger;
-Logger.log("Hello World");
-Logger.warn("This is a warning");
-Logger.error("This is an error");
 var logger = function (message) {
     console.log(message);
 };
