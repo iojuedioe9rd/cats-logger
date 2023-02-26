@@ -1,6 +1,6 @@
 {
   "name": "@lolhgcfcfcghgfd/cats-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple logger",
   "main": "index.js",
   "types": "types/index.d.ts",
@@ -11,8 +11,8 @@
     "build-and-run": "npm run build && npm run start",
     "publish": "npm publish",
     "login": "npm login",
-    "publish-and-login": "npm run login && npm run publish"
-    
+    "publish-and-login": "npm run login && npm run publish",
+    "release": "npm run build-and-run && standard-version && git push --follow-tags && npm publish"
   },
   "keywords": [],
   "author": "",
